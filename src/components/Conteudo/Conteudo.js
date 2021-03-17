@@ -37,7 +37,7 @@ const Conteudo = () => {
         />
 
         <ImagemLink
-          descricao="quarto de casal"
+          descricao="quarto família"
           imagem="/img/quarto-familia1.jpg"
         />
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { NavHashLink } from 'react-router-hash-link'
+
 import './Header.css'
 
 const Header = () => {
@@ -7,21 +8,37 @@ const Header = () => {
     <div className="header-container">
       <div className="header-container-nav">
         <div>
-          <AnchorLink className="header-container-nav__pousada" href="#inicio">
+          <NavHashLink
+            className="header-container-nav__pousada"
+            to="/#inicio"
+            scroll={el => el.scrollIntoView({ block: 'center' })}
+          >
             Pousada <span>Secreta</span>
-          </AnchorLink>
+          </NavHashLink>
         </div>
 
         <div className="header-container-nav__link">
-          <AnchorLink href="#sobre" offset={100}>
+          <NavHashLink
+            smooth
+            to="/#sobre"
+            scroll={el => el.scrollIntoView({ block: 'center' })}
+          >
             sobre
-          </AnchorLink>
-          <AnchorLink href="#rota" offset={100}>
+          </NavHashLink>
+
+          <NavHashLink
+            to="/#rota"
+            scroll={el => el.scrollIntoView({ block: 'center' })}
+          >
             rota
-          </AnchorLink>
-          <AnchorLink href="#quartos" offset={100}>
+          </NavHashLink>
+
+          <NavHashLink
+            to="/#quartos"
+            scroll={el => el.scrollIntoView({ block: 'center' })}
+          >
             quartos
-          </AnchorLink>
+          </NavHashLink>
         </div>
       </div>
     </div>

@@ -1,0 +1,93 @@
+
+
+.container-imagem {
+  background-image: url('/src/assets/img-fundo.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 175px;
+}
+
+.container-quarto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+/* Bem-vindo / Sobre / Rota */
+
+.div-titulo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.div-titulo h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  color: #4c4e4f;
+  text-transform: uppercase;
+}
+
+.div-titulo p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #747472;
+  text-shadow: 0.1px 0.1px #747472;
+}
+.main {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-imagens {
+  width: 1024px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-imagens img {
+  height: 180px;
+  margin-right: 5px;
+}
+.linha {
+  border: none;
+}
+
+/* *************************** Listas *********************/
+
+.container-lista {
+  width: 1024px;
+  height: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-lista p { 
+  font-weight: 600;
+  color: #4c4e4f;
+  height: 20px;
+  margin-bottom: 10px; 
+}
+
+.lista { 
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lista li {
+  margin-top: 10px;
+  font-weight: normal;
+  color: #4c4e4f;
+  font-size: 14px;
+  margin-right: 75px;
+}
