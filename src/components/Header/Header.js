@@ -13,9 +13,15 @@ const Header = () => {
         </div>
 
         <div className="header-container-nav__link">
-          <AnchorLink href="#sobre">sobre</AnchorLink>
-          <AnchorLink href="#rota">rota</AnchorLink>
-          <AnchorLink href="#quartos">quartos</AnchorLink>
+          <AnchorLink href="#sobre" offset={100}>
+            sobre
+          </AnchorLink>
+          <AnchorLink href="#rota" offset={100}>
+            rota
+          </AnchorLink>
+          <AnchorLink href="#quartos" offset={100}>
+            quartos
+          </AnchorLink>
         </div>
       </div>
     </div>

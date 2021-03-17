@@ -1,47 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;  
-  font-family: 'Source Sans Pro', sans-serif;  
-}
-
-/* */
 .container-conteudo {  
-  background-image: url('/src/assets/img-fundo.jpg'); 
+  /*background-image: url('/img/img-fundo.jpg'); */
+  background-image: url('/src/assets/img-fundo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;   
 }
 .div-pousada-secreta {
   border: 1px solid white;
-  width: 475px;
-  height: 188px;
-  padding: 5px 10px 10px 15px;
+  width: 500px;
+  height: 200px;
   border-radius: 4px;
   background-color: rgba(40, 168, 145, 0.8);  
   color: #f7fef8; 
   text-align: center;
   font-size: 28px;  
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column; 
+  padding-top: 40px ;
   opacity: 1;
+}
+.div-pousada-secreta p {
+  padding-top: 30px;
 }
 
 /* Bem-vindo / Sobre / Rota */
 
 .div-titulo {  
   text-align: center;
-  margin-top: 60px;
+  margin-top: 60px;  
 }
 
 .div-titulo h1 {  
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   color: #4c4e4f;
   text-transform: uppercase;
@@ -49,7 +39,6 @@
 
 .div-titulo p {
   margin-top: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
   color: #747472;
   text-shadow: 0.1px 0.1px #747472;
 }
@@ -69,8 +58,8 @@
 }
 
 .imgLink p {
+  padding: 15px 0;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
   color: #747472;
   text-align: center;
   font-weight: 600;
@@ -87,27 +76,27 @@
 .mapa iframe {
   width: 100%;
   margin-top: 50px;
+  border: none;
+  height: 450px;
 }
 
 /*A pousada */
 
-.div-apousada-container {
-    height: 320px;
-    margin-top: 40px;
+.div-apousada-container {       
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+    padding-bottom: 20px;
 }
 
-.div-apousada-secundaria {
-    width: 450px;
-    height: 120px;
-    margin-left: 10px;
-    margin-top: 20px;
+.div-apousada-secundaria {   
+    width: 480px;
+    height: 110px;    
+    margin-top: 50px;
     display: flex;
     margin-right: 40px;
-    padding: 15px;
+    padding: 15px;     
 }
 
 .div-apousada-secundaria img {
@@ -115,9 +104,8 @@
     height: 110px;
 }
 
-.div-apousada-secundaria .texto {
+.div-apousada-secundaria .texto {  
     margin-top: 0;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     font-size: 16px;
     width: 450px;
@@ -128,4 +116,7 @@
 .texto h3 {
     margin-top: 0;
     color: #3b414c;
+}
+.texto p {
+  margin-top: 20px; 
 }
