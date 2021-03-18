@@ -2,6 +2,7 @@ import React from 'react'
 import ImagemLink from './ImagemLink/ImagemLink'
 import Pousada from './Pousada/Pousada'
 import TituloDescricao from './TituloDescricao/TituloDescricao'
+import { NavHashLink } from 'react-router-hash-link'
 
 import './Conteudo.css'
 
@@ -26,20 +27,38 @@ const Conteudo = () => {
       </div>
 
       <div className="div-quartos-container">
-        <ImagemLink
-          descricao="quarto de solteiro"
-          imagem="/img/quarto-solteiro1.jpg"
-        />
+        <NavHashLink
+          className="NavHashLink"
+          to="/quartos#quarto-solteiro"
+          scroll={el => el.scrollIntoView({ block: 'center' })}
+        >
+          <ImagemLink
+            imagem="/img/quarto-solteiro1.jpg"
+            descricao="quarto de solteiro"
+          />
+        </NavHashLink>
 
-        <ImagemLink
-          descricao="quarto de casal"
-          imagem="/img/quarto-casal1.jpg"
-        />
+        <NavHashLink
+          className="NavHashLink"
+          to="/quartos#quarto-casal"
+          scroll={el => el.scrollIntoView({ block: 'center' })}
+        >
+          <ImagemLink
+            descricao="quarto de casal"
+            imagem="/img/quarto-casal1.jpg"
+          />
+        </NavHashLink>
 
-        <ImagemLink
-          descricao="quarto família"
-          imagem="/img/quarto-familia1.jpg"
-        />
+        <NavHashLink
+          className="NavHashLink"
+          to="/quartos#quarto-familia"
+          scroll={el => el.scrollIntoView({ block: 'center' })}
+        >
+          <ImagemLink
+            descricao="quarto família"
+            imagem="/img/quarto-familia1.jpg"
+          />
+        </NavHashLink>
       </div>
 
       <div id="rota" className="div-titulo">

@@ -1,22 +1,22 @@
-.container-conteudo {  
+.container-conteudo {
   background-image: url('/src/assets/img-fundo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;   
+  justify-content: center;
 }
 .div-pousada-secreta {
   border: 1px solid white;
   width: 500px;
   height: 200px;
   border-radius: 4px;
-  background-color: rgba(40, 168, 145, 0.8);  
-  color: #f7fef8; 
+  background-color: rgba(40, 168, 145, 0.8);
+  color: #f7fef8;
   text-align: center;
-  font-size: 28px;  
-  padding-top: 40px ;
+  font-size: 28px;
+  padding-top: 40px;
   opacity: 1;
 }
 .div-pousada-secreta p {
@@ -25,12 +25,12 @@
 
 /* Bem-vindo / Sobre / Rota */
 
-.div-titulo {  
+.div-titulo {
   text-align: center;
-  margin-top: 60px;  
+  margin-top: 60px;
 }
 
-.div-titulo h1 {  
+.div-titulo h1 {
   font-weight: normal;
   color: #4c4e4f;
   text-transform: uppercase;
@@ -57,17 +57,19 @@
 }
 
 .imgLink p {
+  width: 300px;
   padding: 15px 0;
   text-transform: uppercase;
   color: #747472;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
+  border-bottom: 2px solid rgb(67, 120, 113);
+  text-decoration-line: none;
 }
 
-.linha {
-  border: 1px solid rgb(67, 120, 113);
-  width: 300px;
+.NavHashLink {
+  text-decoration: none;
 }
 
 /* Mapa */
@@ -81,41 +83,41 @@
 
 /*A pousada */
 
-.div-apousada-container {       
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;   
-    padding-bottom: 20px;
+.div-apousada-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 
-.div-apousada-secundaria {   
-    width: 480px;
-    height: 110px;    
-    margin-top: 50px;
-    display: flex;
-    margin-right: 40px;
-    padding: 15px;     
+.div-apousada-secundaria {
+  width: 480px;
+  height: 110px;
+  margin-top: 50px;
+  display: flex;
+  margin-right: 40px;
+  padding: 15px;
 }
 
 .div-apousada-secundaria img {
-    width: 100px;
-    height: 110px;
+  width: 100px;
+  height: 110px;
 }
 
-.div-apousada-secundaria .texto {  
-    margin-top: 0;
-    font-weight: normal;
-    font-size: 16px;
-    width: 450px;
-    height: 120px;
-    color: #747472;
+.div-apousada-secundaria .texto {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 16px;
+  width: 450px;
+  height: 120px;
+  color: #747472;
 }
 
 .texto h3 {
-    margin-top: 0;
-    color: #3b414c;
+  margin-top: 0;
+  color: #3b414c;
 }
 .texto p {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
